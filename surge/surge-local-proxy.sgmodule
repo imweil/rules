@@ -9,6 +9,5 @@ allow-wifi-access = true
 allow-lan = true
 wifi-access-interface = *
 
-[Proxy]
 http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
