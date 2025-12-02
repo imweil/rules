@@ -1,13 +1,14 @@
 #!name=Local HTTP & SOCKS5 Server
 #!desc=Enable local HTTP/SOCKS proxy for LAN devices while using a managed profile.
-#!author=well
+#!author=imweil
 #!category=Network
+
 
 [General]
 allow-wifi-access = true
-wifi-access-interface = *
 allow-lan = true
+wifi-access-interface = *
 
 [Proxy]
-HTTP-Proxy = 0.0.0.0:6152
-SOCKS5-Proxy = 0.0.0.0:6153
+http-listen = 0.0.0.0:6152
+socks5-listen = 0.0.0.0:6153
